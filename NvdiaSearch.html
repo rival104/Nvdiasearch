@@ -1,0 +1,97 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nv Search</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="NvdiaSearch.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="NvdiaSearch.html">Nvdia</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="NvdiaSearch.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Course
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="https://www.zybooks.com/catalog/">Zybook</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Search
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#Searchdemo" onclick= "getResults()">Result Demo</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item disabled" href="#">Result from File</a>
+							<a class="dropdown-item disabled" href="#">Result from API</a>
+							<a class="dropdown-item disabled" href="#">Custom Search</a>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Browser
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="screen.html">Screen</a>
+							<a class="dropdown-item" href="location.html">Location</a>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							About
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="about.html">Contact Us</a>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</nav>
+
+		
+		<div class="container center">
+			<br>
+			<br>
+			<div class="row">
+				<div class="col-md-3 offset-5">
+					<h1>Nvdia Search</h1>
+				</div>
+
+
+				<div class="input-group mb-3">
+
+
+					<input type="text" class="form-control" placeholder="Django" aria-label="Django" aria-describedby="basic-addon2" disabled>
+					<div class="input-group-append">
+						<button class="btn btn-outline-success" type="button" onclick="getResults()">Search</button>
+					</div>
+				</div>
+				<div class="col-md-12" id="search-results">
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="NvdiaSearch.js"></script>
+	</body>
+	</html>
