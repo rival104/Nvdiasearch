@@ -1,5 +1,12 @@
 
 
+$(function(){
+	$("#navbar").load("navbar.html");
+});
+
+// document.getElementById("navbar").innerHTML ='<object type="text/html" data="navbar.html" ></object>';
+
+
 document.getElementById("screen").innerHTML = 
 "Screen width is " + screen.width + "</br>" +
 "Screen Height: " + screen.height + "</br>" +
