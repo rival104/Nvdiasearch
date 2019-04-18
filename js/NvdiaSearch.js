@@ -24,6 +24,9 @@ $( document ).ready(function() {
 		document.getElementById("screenS").hidden = true;
 		document.getElementById("geolocationS").hidden = true;
 
+		document.getElementById("description").hidden = true;
+		document.getElementById("contact").hidden = true;
+
 		var navigatorD = "";
 
 		navigatorD += "<p>name: "+navigator.appName + "</p>";
@@ -44,6 +47,9 @@ $( document ).ready(function() {
 		document.getElementById("screenS").hidden = true;
 		document.getElementById("geolocationS").hidden = true;
 
+		document.getElementById("description").hidden = true;
+		document.getElementById("contact").hidden = true;
+
 		var w = window.innerWidth;
 		var h = window.innerHeight;
 		document.getElementById("window").innerHTML = 
@@ -57,6 +63,9 @@ $( document ).ready(function() {
 		document.getElementById("locationS").hidden = false;
 		document.getElementById("screenS").hidden = true;
 		document.getElementById("geolocationS").hidden = true;
+
+		document.getElementById("description").hidden = true;
+		document.getElementById("contact").hidden = true;
 
 		var locationDetail = "";
 
@@ -76,6 +85,9 @@ $( document ).ready(function() {
 		document.getElementById("screenS").hidden = false;
 		document.getElementById("geolocationS").hidden = true;
 
+		document.getElementById("description").hidden = true;
+		document.getElementById("contact").hidden = true;
+
 		var screenD = "";
 
 		screenD += "<p>Screen width is " + screen.width + "<br><br>" + "Screen Height: " + screen.height + "<br><br>" + 
@@ -85,7 +97,7 @@ $( document ).ready(function() {
 		screenD += "<p>Color resolution: " + screen.pixelDepth + "</p>";
 
 		document.getElementById("screen").innerHTML = screenD;
-		
+
 	}
 
 	document.getElementById("geolocationf").onclick = function() {
@@ -95,6 +107,9 @@ $( document ).ready(function() {
 		document.getElementById("locationS").hidden = true;
 		document.getElementById("screenS").hidden = true;
 		document.getElementById("geolocationS").hidden = false;
+
+		document.getElementById("description").hidden = true;
+		document.getElementById("contact").hidden = true;
 
 		getLocation();
 	}
