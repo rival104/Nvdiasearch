@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nv Search</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/NvdiaSearch.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="navbar"></div>
+
+	<section id="browserS">
+		<div class="container">
+			<br>
+			<br>
+			<h2>Browser:</h2>
+			<div id="browser">
+				<p> Contains the Browser DOM function... click a submenu to select </p>
+			</div>
+		</div>
+	</section>	
+	
+	<section id="navigatorS" hidden="true">
+		<div class="container">
+			<br>
+			<br>
+			<h2>Navigator:</h2>
+			<div id="navigator"></div>
+		</div>
+	</section>
+
+	<section id="windowS" hidden="true">
+		<div class="container">
+			<br>
+			<br>
+			<h2>Window:</h2>
+			<div id="window"></div>
+		</div>
+	</section>
+
+	<section id="locationS" hidden="true">
+		<div class="container">
+			<br>
+			<br>
+			<h2>Location:</h2>
+			<div id="location"></div>
+		</div>
+	</section>
+
+	<section id="screenS" hidden="true">
+		<div class="container">
+			<br>
+			<br>
+			<h2>Screen:</h2>
+			<div id="screen"></div>
+		</div>
+	</section>
+	<section id="geolocationS" hidden="true">
+		<div class="container">
+			<br>
+			<br>
+			<h2>Geo Location:</h2>
+			<p>Click the button to get your coordinates.</p>
+
+			<button onclick="getLocation()">Get Your coordinates</button>
+			<div id="geolocation"></div>
+		</div>	
+	</section>
+
+	<div class="container">
+		<br>
+		<br>
+		<section id="description" hidden="true">
+			<h2>Description</h2>
+			<p> Created by Navidur Rahman for CS355 Search and report project</p>
+			<p>I'm a student of Computer science major in my senior year. This is a project for search engine that take input from various method and shows the results.
+			</p>
+		</section>
+		
+		
+		<section id ="contact" hidden="true">
+			<h2>Contact Us:</h2>
+			<a href="mailto:nvsearch@malinator.com">nvsearch@malinator.com</a>.<br> 
+		</section>
+		
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/NvdiaSearch.js"></script>
+</body>
+</html>

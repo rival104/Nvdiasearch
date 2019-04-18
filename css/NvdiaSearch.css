@@ -1,0 +1,17 @@
+h1{
+	color: red;
+}
+
+.no-bullet{
+	list-style-type: none;
+}
+
+#result {
+  display:block;
+  width:400px;
+  height:200px;
+}
+
+#import {
+  margin:10px 0;
+}

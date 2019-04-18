@@ -14,7 +14,7 @@
 					Course
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="https://www.zybooks.com/catalog/">Zybook</a>
+					<a class="dropdown-item" href="https://learn.zybooks.com/zybook/CUNYCSCI355TeitelmanSpring2019">Zybook</a>
 				</div>
 			</li>
 			<li class="nav-item dropdown">
@@ -22,10 +22,10 @@
 					Search
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#Searchdemo" onclick= "getResults()">Result Demo</a>
+					<a id="resultDemo" class="dropdown-item" href="resultDemo.html">Result Demo</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item disabled" href="#">Result from File</a>
-					<a class="dropdown-item disabled" href="#">Result from API</a>
+					<a class="dropdown-item" href="resultFile.html">Result from File</a>
+					<a class="dropdown-item" href="resultApi.html">Result from API</a>
 					<a class="dropdown-item disabled" href="#">Custom Search</a>
 				</div>
 			</li>
@@ -34,9 +34,12 @@
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Browser
 				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="screen.html">Screen</a>
-					<a class="dropdown-item" href="location.html">Location</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">	
+					<a id = "navigatorf" class="dropdown-item" href="browser.html#navigator">Navigator</a>
+					<a id = "windowf" class="dropdown-item" href="browser.html#window">Window</a>
+					<a id = "locationf" class="dropdown-item" href="browser.html#location">Location</a>
+					<a id = "screenf" class="dropdown-item" href="browser.html#screenDetail">Screen</a>
+					<a id = "geolocationf" class="dropdown-item" href="browser.html#geolocation">Geolocation</a>
 				</div>
 			</li>
 
@@ -45,7 +48,8 @@
 					About
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="about.html">Contact Us</a>
+					<a id = "descriptionf" class="dropdown-item" href="#description">Description</a>
+					<a id="contactf" class="dropdown-item" href="#contact">Contact Us</a>
 				</div>
 			</li>
 
